@@ -1,0 +1,53 @@
+html,
+body {
+  --black: hsl(240, 8%, 5%);
+  --grey: hsl(240, 2%, 73%);
+
+  height: 100%;
+  font-family: Verdana, sans-serif;
+  
+}
+
+body {
+  background-color: var(--black);
+  display: grid;
+  place-items: center;
+}
+
+img {
+  margin-left: 7rem;
+  position: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  margin-top: 2rem;
+  color: white;
+}
+
+input {
+  height: 3.5rem;
+  width: 19.7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  padding: 0 2rem;
+}
+
+button {
+  background-color: slateblue;
+  border: none; 
+  color: white;
+  height: 3.5rem;
+  width: 24rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  
+  transition: background 0.3s;
+}
