@@ -1,53 +1,65 @@
-html,
-body {
-  --black: hsl(240, 8%, 5%);
-  --grey: hsl(240, 2%, 73%);
+* {
+  margin: 0;
+}
 
-  height: 100%;
+body {
+  background-color: hsl(240, 8%, 5%);
+  text-align: center;
+  color: white;
   font-family: Verdana, sans-serif;
-  
 }
 
-body {
-  background-color: var(--black);
-  display: grid;
-  place-items: center;
+/* # seletor de id */
+#container { 
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+  border: 0.5px solid hsl(240, 29%, 27%);
+  border-radius: 4px;
+  background-color: hsl(240, 20%, 16%);
 }
 
-img {
-  margin-left: 7rem;
-  position: center;
+img{
+  height: 150px;
+  margin-top: 20px;
 }
 
 h1 {
-  font-size: 2rem;
-  color: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
 }
 
 p {
-  margin-top: 2rem;
-  color: white;
+  margin-bottom: 40px;
+  opacity: 0.7;
 }
 
-input {
-  height: 3.5rem;
-  width: 19.7rem;
-  display: flex;
-  align-items: center;
-  border-radius: 0.25rem;
-  padding: 0 2rem;
+input, button {
+  display: block;
+  width: 100%;
+
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none; 
+  box-sizing: border-box; /*largura input em box */
+  margin-bottom: 20px;
 }
+
+/*input {
+  margin-bottom: 20px;
+}*/
 
 button {
-  background-color: slateblue;
-  border: none; 
-  color: white;
-  height: 3.5rem;
-  width: 24rem;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 2rem;
-  border-radius: 0.25rem;
-  
-  transition: background 0.3s;
+  background-color: slateblue; 
+  color: white; 
+  transition: filter .3s;
+}
+
+/*filter - mouse encima do botão - pseudo-class hover */
+button:hover { 
+  filter: brightness(1.2);
+  cursor: pointer;
 }
