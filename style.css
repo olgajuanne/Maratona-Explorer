@@ -17,9 +17,9 @@ body {
   width: 80%;
   max-width: 400px;
   margin-inline: auto;
-  border: 0.5px solid hsl(240, 29%, 27%);
   
-  background-color: hsl(240, 20%, 16%);
+  background-color: hsl(240, 35%, 13%);
+  border-radius: 10px;
 }
 
 img{
@@ -66,7 +66,6 @@ button:hover {
   cursor: pointer;
 }
 
-
 #resposta {
   margin-top: 30px;
 
@@ -75,7 +74,26 @@ button:hover {
 
 #resposta div {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;
   opacity: 0.9;
   margin-bottom: 10px;
 }
+
+/* animação da imagem */
+img {
+  animation: move 500ms;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from{
+    opacity: 0;
+    transform:  translateX(-30%);
+  } 
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+

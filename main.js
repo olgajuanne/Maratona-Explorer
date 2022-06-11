@@ -26,8 +26,7 @@ const respostas = [
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
 ]
-
-
+ 
 
 //clicar em fazer pergunta 
 function fazerPergunta() {
@@ -55,6 +54,9 @@ function fazerPergunta() {
     elementoResposta.style.opacity = 0;
     buttonPerguntar.removeAttribute("disabled")
   }, 3000)
-
-  // jogar dados
 }
+
+/* quando clicar no botão img shake */
+$( document ).click(function() {
+  $( "#bola" ).effect( "shake" );
+});
