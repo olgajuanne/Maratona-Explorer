@@ -1,6 +1,8 @@
 # Maratona-Explorer
 
 Evento gratuito realizado pela Rocketseat dos dias 06 a 12 de junho.
+![preview](./.github/preview.png)
+[🔗 Clique aqui para acessar](https://olgajuanne.github.io/Maratona-Explorer/)
 
 ## HTML
 - HyperText Markup Language
@@ -28,7 +30,6 @@ Evento gratuito realizado pela Rocketseat dos dias 06 a 12 de junho.
 - Especificidade
 - Box Model
 - Display block vs inline
-
 
 
 ### imagem bola de cristal
@@ -139,4 +140,7 @@ https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/ra
   // document.write("texto")
   // manipular elementos
   // document.documentElement.style.background = "black"
+
+
+//https://maratona-explorer-ticket.rocketseat.com.br/ticket/olgajuanne/share
 ```
